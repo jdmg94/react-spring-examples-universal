@@ -1,0 +1,33 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/match-media": "^0.0.0-alpha.2",
+    "expo": "~36.0.0",
+    "expo-linear-gradient": "^8.0.0",
+    "expo-sensors": "~8.0.0",
+    "hat": "^0.0.3",
+    "lodash": "^4.17.15",
+    "lodash-move": "^1.1.1",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-svg": "9.13.3",
+    "react-native-web": "~0.11.7",
+    "react-responsive": "^8.0.1",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
