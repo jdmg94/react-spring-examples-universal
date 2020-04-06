@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-animations-presentation",
-    "slug": "rn-animations-presentation",
+    "name": "react-spring-universal-examples",
+    "slug": "react-spring-universal-examples",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [

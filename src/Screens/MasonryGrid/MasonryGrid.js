@@ -13,7 +13,6 @@ const Wrapper = styled.View`
   flex: 1;
   padding: 0;
   width: 100%;
-  margin: 35px 0 0 0;
   position: relative;
   align-items: flex-start;
   justify-content: flex-start;
@@ -39,7 +38,7 @@ const MasonryGrid = () => {
   );
 
   useEffect(() => {
-    const interval = setInterval(() => set(shuffle), 2000);
+    const interval = setInterval(() => set(shuffle), 1500);
 
     return () => clearInterval(interval);
   }, []);

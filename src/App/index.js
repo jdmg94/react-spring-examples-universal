@@ -1,1 +1,1 @@
-export { MasonryGrid as default } from './App'
+export { default } from './App'

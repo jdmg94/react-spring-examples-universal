@@ -15,7 +15,7 @@ const initialState = { opacity: 1, rotateX: 180 };
 const flipedState = { opacity: 0, rotateX: 0 };
 
 const FlipImage = () => {
-  const tenPercent = percent(10);
+  const fivePercent = percent(5);
   const eightyPercent = percent(80);
   const { height, width } = Dimensions.get("window");
   const [shouldFlip, setFlip] = useState(false);
@@ -30,7 +30,7 @@ const FlipImage = () => {
         <View>
           <AnimatedImage
             style={{
-              top: tenPercent(height),
+              top: fivePercent(height),
               width: eightyPercent(width),
               height: eightyPercent(height),
               opacity: opacity.interpolate(value => 1 - value),
@@ -47,7 +47,7 @@ const FlipImage = () => {
           <AnimatedImage
             style={{
               opacity,
-              top: tenPercent(height),
+              top: fivePercent(height),
               width: eightyPercent(width),
               height: eightyPercent(height),
               transform: [
