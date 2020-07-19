@@ -15,7 +15,7 @@
     "expo-linear-gradient": "^8.0.0",
     "expo-sensors": "~8.0.0",
     "hat": "^0.0.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash-move": "^1.1.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
